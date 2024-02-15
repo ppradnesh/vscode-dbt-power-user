@@ -14,8 +14,9 @@ For any issues or bugs, please [contact us](https://www.altimate.ai/support) via
 | [Auto-complete dbt code](#autocomplete)                     | Auto-fill model names, macros, sources and docs. Click on model names, macros, sources to go to definitions.                          |
 | [Preview Query results and Analyze](#querypreview)          | Generate dbt model / query results. Export as CSV or analyze results by creating graphs, filters, groups                              |
 | [Column lineage](#lineage)                                  | Model lineage as well as column lineage                                                                                               |
-| [Generate dbt Models](#genmodel)                            | from source files or convert SQL to dbt Model (docs)                                                                                  |
-| [Generate documentation](#gendoc)                           | Generate model and column descriptions or write in the UI editor. Save formatted text in YAML files.                                  |
+| [Generate dbt models](#genmodel)                            | Generate dbt models from source files or convert SQL to dbt model                                                                     |
+| [Update dbt models using natural language](#updatemodel)    | Update dbt model code by giving instructions in natural language (e.g. add new column 'customer_rank' based on revenue_amount)        |
+| [Generate documentation](#gendoc)                           | Generate or update model and column descriptions or write in the UI editor to automatically save in a YAML file                       |
 | [Click to run parent / child models and tests](#clicktorun) | Just click to do common dbt operations like running tests, parent / child models or previewing data.                                  |
 | [Compiled query preview and explanation](#queryexplanation) | Get live preview of compiled query as your write code. Also, generate explanations for dbt code written previously (by somebody else) |
 | [Project health check](#healthcheck)                        | Identify issues in your dbt project like columns not present, models not materialized                                                 |
@@ -48,9 +49,15 @@ View model lineage as well as column lineage with components like models, seeds,
 
 ### <a id="genmodel"> Generate dbt Models from source or SQL</a>
 
-Generate dbt models from sources defined in YAML. You can also convert existing SQL to a dbt model where references get populated automatically. [(docs)](https://docs.myaltimate.com/develop/clicktorun/)
+Generate dbt models from sources defined in YAML. You can also convert existing SQL to a dbt model where references get populated automatically. [(docs)](https://docs.myaltimate.com/develop/genmodelSQL/)
 
 ![genmodel](media/images/genmodel.gif)
+
+### <a id="updatemodel"> Update dbt model using natural language</a>
+
+Update dbt model code by giving instructions in natural language (e.g. add new column 'customer_rank' based on revenue_amount). [(docs)](https://docs.myaltimate.com/develop/updatemodel/)
+
+![updatemodel](media/images/update-model.gif)
 
 ### <a id="gendoc"> Generate documentation</a>
 
