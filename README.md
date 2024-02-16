@@ -73,7 +73,7 @@ Just click to do common button operations like executing tests, building or runn
 
 ### <a id="queryexplanation"> Compiled query preview and explanation</a>
 
-Get live preview of compiled query as your write code. Also, generate explanations for dbt code written previously (by somebody else). [(docs)](https://docs.myaltimate.com/develop/explanation/)
+Get live preview of compiled query as your write code. Also, generate explanations for dbt code written previously (by somebody else). You can ask further followup questions on explanation as well. [(docs)](https://docs.myaltimate.com/develop/explanation/)
 
 ![explanation](media/images/explanation.gif)
 
