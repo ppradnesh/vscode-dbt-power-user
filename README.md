@@ -74,7 +74,7 @@ Just click to do common button operations like executing tests, building or runn
 
 ### <a id="defertoprod">Defer to prod</a>
 
-Defer building your upstream models when you make changes in development by referencing production models. Here's [(more info)](https://docs.getdbt.com/blog/defer-to-prod). This functionality can be used in local mode or SaaS mode [(docs)](https://docs.myaltimate.com/test/defertoprod/)
+Defer building your upstream models when you make changes in development by referencing production models. Here's [(more info)](https://docs.getdbt.com/blog/defer-to-prod) about the concept. This functionality can be used in dbt core with the extension. [(docs)](https://docs.myaltimate.com/test/defertoprod/)  
 
 ![lineage](media/images/lineage.gif)
 
