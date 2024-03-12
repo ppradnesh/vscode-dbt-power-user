@@ -76,6 +76,7 @@ Just click to do common button operations like executing tests, building or runn
 
 Defer building your upstream models when you make changes in development by referencing production models. Here's [(more info)](https://docs.getdbt.com/blog/defer-to-prod) about the concept. This functionality can be used in dbt core with the extension. [(docs)](https://docs.myaltimate.com/test/defertoprod/)  
 
+![defertoprod](media/images/defertoprod.gif)
 
 ### <a id="lineage">Real-time column lineage</a>
 
